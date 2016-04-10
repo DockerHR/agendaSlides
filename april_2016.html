@@ -2,6 +2,7 @@
 <html lang="en">
 
 	<head>
+    <link href='https://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
 		<meta charset="utf-8">
 
     <title>DockerHR Meetup Announcements</title>
@@ -15,7 +16,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -34,29 +35,36 @@
 		<![endif]-->
     <style>
     .callout {
-        color: #e7ad52;
+        color: #008BB8;
+
     }
     .dark {
         background-color: #FFF;
     }
     section img.light {
-      background: rgba(255,255,255,0);
+      background-color: rgba(200, 200, 200, 0);
       border: none;
+      box-shadow: none;
+
+
+
+
+
 
     }
 
     section div.groupname{
-      font-size: 4em;
-      z-index: 10;
-      position: absolute;
-top: 104px;
-left: 845px;
-font-style: italic;
-font-size: 5em;
-font-family: Helvetica, Arial, sans-serif;
+    margin-top: -100px;
+
+    font-style: italic;
+    font-size: 4em;
+    font-family: 'Trade Winds', cursive;
+
 
 
     }
+
+
     </style>
 	</head>
 
@@ -66,9 +74,16 @@ font-family: Helvetica, Arial, sans-serif;
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-        <section>
-            <img src="img/large_h-dark-trans.png" alt="Docker Logo" class="light" /><div class="groupname callout">HR
-            </div>
+        <section data-background="#CCC" >
+
+              <img src="img/large_h-trans.png" alt="Docker Logo" class="light" />
+              <div class="groupname callout">
+                HR
+              </div>
+
+
+
+
             <h3>April 18th, 2016</h3>
             <p>
                 <small>Created by <a href="http://meetup.com/Docker-Hampton-Roads/">DockerHR</a></small>
@@ -76,7 +91,7 @@ font-family: Helvetica, Arial, sans-serif;
         </section>
 
 
-        <section>
+        <section data-background="#CCC">
           <h2>Talk to us in <span class="callout">#docker</span></h2>
           <ul>
             <li>Join the 757dev Slack chat! Sign-up at <a href="http://757dev.org">757dev.org</a>
@@ -84,14 +99,14 @@ font-family: Helvetica, Arial, sans-serif;
           </ul>
         </section>
 
-        <section>
+        <section data-background="#CCC">
           <h2>Thank You</h2>
-            <img src="./img/issuetrak-icon-logotype-for-dark-bg.png" alt="IssueTrak Logo" style="border: solid 0 #000; background-color:#000;" />
+            <img src="./img/issuetrak-icon-logotype-for-light-bg.png" alt="IssueTrak Logo" style="background-color: rgba(200,200,200,0);border: solid 0 #000; box-shadow:none;" />
         </section>
 
 
 
-        <section>
+        <section data-background="#CCC">
             <h2>Upcoming Events</h2>
             <ul>
                 <li>Popup Robots (4/21) @ 757 Makerspace</li>
@@ -102,7 +117,7 @@ font-family: Helvetica, Arial, sans-serif;
         </section>
 
 
-        <section>
+        <section data-background="#CCC">
             <h2>Our Featured Speaker:</h2>
             <h1><span class="callout">Bret Fisher</span></h1>
             <h3>Learn Docker Compose</h3>
