@@ -9,19 +9,19 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #111111;
-  background-color: #111111; }
+  background: #ffffff;
+  background-color: #ffffff; }
 
 .reveal {
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: #eeeeee; }
+  color: #777877; }
 
 ::selection {
   color: white;
-  background: #151515;
+  background: #e7ad52;
   text-shadow: none; }
 
 /*********************************************
@@ -34,8 +34,8 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #f0db4f;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #2EA1D0;
+  font-family: "Montserrat", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: -0.03em;
   text-transform: none;
@@ -133,4 +133,4 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #f0db4f;; }
+  color: #e7ad52; }

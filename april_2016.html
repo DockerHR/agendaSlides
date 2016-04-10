@@ -1,158 +1,160 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
+	<head>
+    <link href='https://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
 
     <title>DockerHR Meetup Announcements</title>
 
     <meta name="description" content="A Container User Group in Hampton Roads, VA">
     <meta name="author" content="DockerHR">
 
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-    <link rel="stylesheet" href="css/reveal.min.css">
-    <link rel="stylesheet" href="css/theme/night.css" id="theme">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
 
-    <!-- For syntax highlighting -->
-    <link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
 
-    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
-    <script>
-    if (window.location.search.match(/print-pdf/gi)) {
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'css/print/pdf.css';
-        document.getElementsByTagName('head')[0].appendChild(link);
-    }
-    </script>
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
 
-    <!--[if lt IE 9]>
+		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
     <style>
     .callout {
-        color: #e7ad52;
+        color: #008BB8;
+
     }
-    .black_logo {
-        background-color: white;
+    .dark {
+        background-color: #FFF;
     }
+    section img.light {
+      background-color: rgba(200, 200, 200, 0);
+      border: none;
+      box-shadow: none;
+
+
+
+
+
+
+    }
+
+    section div.groupname{
+    margin-top: -100px;
+
+    font-style: italic;
+    font-size: 4em;
+    font-family: 'Trade Winds', cursive;
+
+
+
+    }
+
+
     </style>
+	</head>
 
-</head>
+	<body>
 
-<body>
+		<div class="reveal">
 
-    <div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+        <section data-background="#CCC" >
 
-        <!-- Any section element inside of this container is displayed as a slide -->
-        <div class="slides">
-            <section>
-                <h1><span class="callout">DockerHR</span></h1>
-                <h3>April 18th, 2016</h3>
-                <p>
-                    <small>Created by <a href="http://meetup.com/Docker-Hampton-Roads/">DockerHR</a></small>
-                </p>
-            </section>
-
-
-            <section>
-              <h2>Talk to us in <span class="callout">#docker</span></h2>
-              <ul>
-                <li>Join the 757dev Slack chat! Sign-up at <a href="http://757dev.org">757dev.org</a>
-                </li>
-              </ul>
-            </section>
-
-            <section>
-              <h2>Thank You</h2>
-                <img src="./img/issuetrak-icon-logotype-for-dark-bg.png" alt="IssueTrak Logo" style="border: solid 0 #000; background-color:#000;" />
-            </section>
+              <img src="img/large_h-trans.png" alt="Docker Logo" class="light" />
+              <div class="groupname callout">
+                HR
+              </div>
 
 
 
-            <section>
-                <h2>Upcoming Events</h2>
-                <ul>
-                    <li>Popup Robots (4/21) @ 757 Makerspace</li>
-                    <li>NorfolkJS (4/25) @ Pierce/McCoy</li>
-                    <li>Revolutionconf (5/13)</li>
-                    <li>Check the meetup page for more details</li>
-                </ul>
-            </section>
+
+            <h3>April 18th, 2016</h3>
+            <p>
+                <small>Created by <a href="http://meetup.com/Docker-Hampton-Roads/">DockerHR</a></small>
+            </p>
+        </section>
 
 
-            <section>
-                <h2>Our Featured Speaker:</h2>
-                <h1><span class="callout">Bret Fisher</span></h1>
-                <h3>Learn Docker Compose</h3>
-            </section>
+        <section data-background="#CCC">
+          <h2>Talk to us in <span class="callout">#docker</span></h2>
+          <ul>
+            <li>Join the 757dev Slack chat! Sign-up at <a href="http://757dev.org">757dev.org</a>
+            </li>
+          </ul>
+        </section>
 
-        </div>
+        <section data-background="#CCC">
+          <h2>Thank You</h2>
+            <img src="./img/issuetrak-icon-logotype-for-light-bg.png" alt="IssueTrak Logo" style="background-color: rgba(200,200,200,0);border: solid 0 #000; box-shadow:none;" />
+        </section>
 
-    </div>
 
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.min.js"></script>
 
-    <script>
-    // Full list of configuration options available here:
-    // https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
+        <section data-background="#CCC">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Popup Robots (4/21) @ 757 Makerspace</li>
+                <li>NorfolkJS (4/25) @ Pierce/McCoy</li>
+                <li>Revolutionconf (5/13)</li>
+                <li>Check the meetup page for more details</li>
+            </ul>
+        </section>
 
-        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
-        // Parallax scrolling
-        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-        // parallaxBackgroundSize: '2100px 900px',
+        <section data-background="#CCC">
+            <h2>Our Featured Speaker:</h2>
+            <h1><span class="callout">Bret Fisher</span></h1>
+            <h3>Learn Docker Compose</h3>
+        </section>
 
-        // Optional libraries used to extend on reveal.js
-        dependencies: [{
-            src: 'lib/js/classList.js',
-            condition: function() {
-                return !document.body.classList;
-            }
-        }, {
-            src: 'plugin/markdown/marked.js',
-            condition: function() {
-                return !!document.querySelector('[data-markdown]');
-            }
-        }, {
-            src: 'plugin/markdown/markdown.js',
-            condition: function() {
-                return !!document.querySelector('[data-markdown]');
-            }
-        }, {
-            src: 'plugin/highlight/highlight.js',
-            async: true,
-            callback: function() {
-                hljs.initHighlightingOnLoad();
-            }
-        }, {
-            src: 'plugin/zoom-js/zoom.js',
-            async: true,
-            condition: function() {
-                return !!document.body.classList;
-            }
-        }, {
-            src: 'plugin/notes/notes.js',
-            async: true,
-            condition: function() {
-                return !!document.body.classList;
-            }
-        }]
-    });
-    </script>
 
-</body>
+			</div>
 
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
 </html>
