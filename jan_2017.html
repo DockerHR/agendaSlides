@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+    <link href='https://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+
+    <title>DockerHR Meetup Announcements</title>
+
+    <meta name="description" content="A Container User Group in Hampton Roads, VA">
+    <meta name="author" content="DockerHR">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+    <style>
+    .callout {
+        color: #008BB8;
+
+    }
+    .dark {
+        background-color: #FFF;
+    }
+    section img.light {
+      background-color: rgba(200, 200, 200, 0);
+      border: none;
+      box-shadow: none;
+
+
+
+
+
+
+    }
+
+    section div.groupname{
+    margin-top: -100px;
+
+    font-style: italic;
+    font-size: 4em;
+    font-family: 'Trade Winds', cursive;
+
+
+
+    }
+
+
+    </style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+        <section data-background="#CCC" >
+
+              <img src="img/large_h-trans.png" alt="Docker Logo" class="light" />
+              <div class="groupname callout">
+                HR
+              </div>
+
+
+
+
+            <h3>January 16th, 2017</h3>
+            <p>
+                <small>Created by <a href="http://meetup.com/Docker-Hampton-Roads/">DockerHR</a></small>
+            </p>
+        </section>
+
+
+        <section data-background="#CCC">
+          <h2>Talk to us in <span class="callout">#docker</span></h2>
+          <ul>
+            <li>Join the 757dev Slack chat! Sign-up at <a href="http://757dev.org">757dev.org</a>
+            </li>
+          </ul>
+        </section>
+
+        <section data-background="#CCC">
+          <h2>Thank You</h2>
+            <img src="./img/issuetrak-icon-logotype-for-light-bg.png" alt="IssueTrak Logo" style="background-color: rgba(200,200,200,0);border: solid 0 #000; box-shadow:none;" />
+        </section>
+
+
+
+        <section data-background="#CCC">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Popup Robots (1/19) @ 757 Makerspace Studios</li>
+                <li>NorfolkJS (1/23) @ Pierce/McCoy</li>
+                <li>CODE screening (1/31) @ Slover Library</li>
+                <li>Check the Slack #announcements and Meetup pages for more details</li>
+            </ul>
+        </section>
+        <section data-background="#CCC">
+            <h2>Lightning Talk:</h2>
+            <h1><span class="callout">Dan Luhring</span></h1>
+            <h3>Building Trust With Docker Containers and Nginx</h3>
+        </section>
+
+        <section data-background="#CCC">
+            <h2>Our Featured Speaker:</h2>
+            <h1><span class="callout">John Zaccone</span></h1>
+            <h3>Jenkins + Docker FTW, plus Docker in Docker</h3>
+        </section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
